@@ -1,3 +1,5 @@
+package PE;
+
 import java.util.Scanner;
 
 public class MenuComWhile {

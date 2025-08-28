@@ -1,3 +1,5 @@
+package PE;
+
 public class Aritmetico {
     public static void main(String[] args) {
         float primeiroValor;

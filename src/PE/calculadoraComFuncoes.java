@@ -1,3 +1,5 @@
+package PE;
+
 import java.util.Scanner;
 
 public class calculadoraComFuncoes {
@@ -8,7 +10,7 @@ public class calculadoraComFuncoes {
 
     // Exibe o menu e retorna a opção
     public static int exibirMenu() {
-        System.out.println("---Calculadora Simples---");
+        System.out.println("---PE.Calculadora Simples---");
         System.out.println("1. Soma");
         System.out.println("2. Subtração");
         System.out.println("3. Multiplicação");
