@@ -28,9 +28,18 @@ public class Pessoa {
         this.sexo = sexo;
     }
 
-    public char obterSexo() {
-        return this.sexo;
+    public String obterSexo() {
+        if (this.sexo == 'M') {
+            return "Masculino";
+        }
+        else{
+            return "Feminino";
+        }
     }
 
-    public void imprimirDados() {}
+    public String imprimirDados() {
+        return ("Nome: " + this.obterNome()
+                + "\nSexo: " + this.obterSexo()
+                + "\nIdade: " + this.obterIdade());
+    }
 }
